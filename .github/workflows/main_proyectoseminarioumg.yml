@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'proyectoSeminarioUmg'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_320DB5D518964038B4BA828ABE7F1A63 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7FEB6AA12994A83909763DB64169E43 }}
