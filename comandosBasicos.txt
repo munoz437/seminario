@@ -33,3 +33,8 @@ OJO LOS SIGUIENTES COMANDOS SON PARA 1 CREAR LAS MIGRACIONES Y 2 APLICAR LAS MIG
 python manage.py makemigrations
 
 python manage.py migrate
+
+
+
+
+.
