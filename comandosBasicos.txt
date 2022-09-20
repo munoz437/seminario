@@ -1,0 +1,35 @@
+PASOS PARA EJECUTAR EL PROYECTO EN LOCAL CON **SQLITE*** PARA NO GASTAR ORACLE DB
+
+Abrir la carpeta del proyecto
+
+OJO LOS SIGUIENTES COMANDOS SON PARA 1 CREAR LAS MIGRACIONES Y 2 APLICAR LAS MIGRACIONES EN LA DB
+
+    python manage.py makemigrations
+
+    python manage.py migrate
+----------------------------
+    pip install -r requirements.txt //instalar los requerimientos
+
+    python manage.py runserver //con este comando se ejecuta el projecto
+
+
+
+
+------------------------------------- NO EJECUTAR HASTA TERMINAR EL PROYECTO-----------------------------------------
+PASOS PARA EJECUTAR EL PROYECTO PASOS PARA PRODUCCION--- EN ORACLE DB
+
+Encender la base de datos OJO apagar despues de usar
+
+Abrir la carpeta del proyecto
+
+Mover el instaclient a C:\ORACLE\instantclient_21_6 , con esto todos tendremos la misma config
+
+pip install -r requirements.txt //instalar los requerimientos
+
+python manage.py runserver //con este comando se ejecuta el projecto
+
+OJO LOS SIGUIENTES COMANDOS SON PARA 1 CREAR LAS MIGRACIONES Y 2 APLICAR LAS MIGRACIONES EN LA DB( SE EJECUTAN SOLO CUANDO SE QUIERAN CAMBIOS EN LA DB)
+
+python manage.py makemigrations
+
+python manage.py migrate
